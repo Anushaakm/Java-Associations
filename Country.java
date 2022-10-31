@@ -1,45 +1,24 @@
-package com.xworkz.associationExample;
+package com.xworkz.associationExample.two;
 
 public class Country {
 	public String name;
-	public City[] cities;
-	public President president;
-
-	public Country(String name) {
-		this.name = name;
-
+	public int code;
+	public String capital;
+	public int noOfStates;
+	
+	public Country(String name, int code, String capital, int noOfStates) {
+		this.capital=capital;
+		this.code=code;
+		this.name=name;
+		this.noOfStates=noOfStates;	
 	}
-
-	public void setCities(City[] cities) {
-		this.cities = cities;
+	
+	public void showOff()
+	{
+		System.out.println(capital);
+		System.out.println(code);
+		System.out.println(name);
+		System.out.println(noOfStates);
 	}
-
-	public void setPresident(President president) {
-		this.president = president;
-	}
-
-	public void letMeSee() {
-		if (cities != null) {
-			for (int i = 0; i < cities.length; i++) {
-				City city = cities[i];
-
-				if (city != null) {
-					city.see();
-				}
-			}
-		} else {
-			System.out.println("city is null");
-		}
-
-		if (president != null) {
-
-			this.president.show();
-
-		} else {
-			System.out.println("President is null");
-		}
-
-		System.out.println(this.name);
-
-	}
+	
 }

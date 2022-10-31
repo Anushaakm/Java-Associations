@@ -1,36 +1,23 @@
-package com.xworkz.associationExample;
+package com.xworkz.associationExample.two;
 
 public class City {
-	public Name name;
-	public boolean capital;
-	public double areaInSquareKilometers;
+	public String name;
+	public String state;
+	public int area;
+	public int population;
 	
-	
-	public City(Name name,boolean capital,double areaInSquareKilometers)
-	
+	public City(String name,String state,int area,int population) {
+		this.name=name;
+		this.state=state;
+		this.area=area;
+		this.population=population;
+	}
+	public void showOff()
 	{
-		this.capital = capital;
-		this.areaInSquareKilometers = areaInSquareKilometers;
-		this.name = name;
+		System.out.println(name);
+		System.out.println(state);
+		System.out.println(area);
+		System.out.println(population);
 	}
 	
-	
-	
-	public void see()
-	{
-		System.out.println(this.capital);
-		System.out.println(this.areaInSquareKilometers);
-		if(name!=null)
-		{
-		
-			this.name.display();
-			System.out.println();
-			
-		}
-		
-		else
-		{
-			System.out.println("name is null");
-		}
-	}
 }
