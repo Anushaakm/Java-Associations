@@ -1,16 +1,16 @@
 package com.xworkz.encapsulation.examples.things;
 
-public class Chocolate {
-	private String shopName="Sagar";
+public class Bread {
+	private String shopName="kala";
 	private double price=1000;
 	private int quantity=1;
 	private String brand="Nestle";
-	private String type="Veg-Biriyani";
-	private String buyWith="chips";
+	private String type="salt";
+	private String buyWith="chocolate";
 	private boolean veg=true;
 	private String fat="30g";
-	private boolean water=true;
-	private int orderNo=1234;
+	private boolean water=false;
+	private int orderNo=12345;
 	private String orderedBy="Anusha";
 	private String orderedOn="Nov2";
 	private int discount=10;
@@ -70,5 +70,4 @@ public class Chocolate {
 	public int getDiscount() {
 		return discount;
 	}
-	
 }

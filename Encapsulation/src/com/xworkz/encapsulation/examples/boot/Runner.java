@@ -1,9 +1,13 @@
 package com.xworkz.encapsulation.examples.boot;
 
 import com.xworkz.encapsulation.examples.things.Apple;
+import com.xworkz.encapsulation.examples.things.Book;
+import com.xworkz.encapsulation.examples.things.Bread;
 import com.xworkz.encapsulation.examples.things.Chips;
 import com.xworkz.encapsulation.examples.things.Chocolate;
+import com.xworkz.encapsulation.examples.things.Kurukure;
 import com.xworkz.encapsulation.examples.things.Lunch;
+import com.xworkz.encapsulation.examples.things.Orange;
 import com.xworkz.encapsulation.examples.things.Owner;
 
 public class Runner {
@@ -14,6 +18,10 @@ public class Runner {
 		Chips chips=new Chips();
 		Apple apple=new Apple();
 		Owner owner=new Owner();
+		Kurukure kurukure=new Kurukure();
+		Orange orange=new Orange();
+		Bread bread=new Bread();
+		Book book =new Book();
 		
 		owner.useLunchInfo();
 		System.out.println("Reading  private properties of lunch class(encapsulation)");
@@ -68,6 +76,59 @@ public class Runner {
 		System.out.println(apple.getQuantity());
 		System.out.println(apple.getSideDish());
 		System.out.println(apple.getStarters());
+		
+		System.out.println("Reading  private properties of Kurukure class(encapsulation)");
+		System.out.println(kurukure.getShopName());
+		System.out.println(kurukure.getPrice());
+		System.out.println(kurukure.getQuantity());
+		System.out.println(kurukure.getBrand());
+		System.out.println(kurukure.getOrderedBy());
+		System.out.println(kurukure.getOrderedOn());
+		System.out.println(kurukure.getOrderNo());
+		System.out.println(kurukure.getPrice());
+		System.out.println(kurukure.getQuantity());
+		System.out.println(kurukure.getByWith());
+		System.out.println(kurukure.getFat());
+		
+		System.out.println("Reading  private properties of Orange class(encapsulation)");
+		System.out.println(orange.getShopName());
+		System.out.println(orange.getPrice());
+		System.out.println(orange.getQuantity());
+		System.out.println(orange.getBrand());
+		System.out.println(orange.getOrderedBy());
+		System.out.println(orange.getOrderedOn());
+		System.out.println(orange.getOrderNo());
+		System.out.println(orange.getPrice());
+		System.out.println(orange.getQuantity());
+		System.out.println(orange.getByWith());
+		System.out.println(orange.getFat());
+		
+		System.out.println("Reading  private properties of Bread class(encapsulation)");
+		System.out.println(bread.getShopName());
+		System.out.println(bread.getPrice());
+		System.out.println(bread.getQuantity());
+		System.out.println(bread.getBrand());
+		System.out.println(bread.getOrderedBy());
+		System.out.println(bread.getOrderedOn());
+		System.out.println(bread.getOrderNo());
+		System.out.println(bread.getPrice());
+		System.out.println(bread.getQuantity());
+		System.out.println(bread.getByWith());
+		System.out.println(bread.getFat());
+		
+		
+		System.out.println("Reading  private properties of book class(encapsulation)");
+		System.out.println(book.getShopName());
+		System.out.println(book.getPrice());
+		System.out.println(book.getQuantity());
+		System.out.println(book.getBrand());
+		System.out.println(book.getOrderedBy());
+		System.out.println(book.getOrderedOn());
+		System.out.println(book.getOrderNo());
+		System.out.println(book.getPrice());
+		System.out.println(book.getQuantity());
+		System.out.println(book.getByWith());
+		System.out.println(book.getFat());
 	}
 
 }

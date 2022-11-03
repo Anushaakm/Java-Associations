@@ -17,7 +17,7 @@ public class Chips {
 	private String orderedOn="Nov2";
 	private int discount=10;
 	
-	public void setProperties(String shopName, double price, int quantity, String brand, String type, String buyWith,boolean veg, String fat, boolean water, int orderNo, String orderedBy, String orderedOn, int discount) {
+	 void setProperties(String shopName, double price, int quantity, String brand, String type, String buyWith,boolean veg, String fat, boolean water, int orderNo, String orderedBy, String orderedOn, int discount) {
 		this.shopName = shopName;
 		this.price = price;
 		this.quantity = quantity;

@@ -16,7 +16,7 @@ public class Lunch {
 	private String orderedOn="Nov2";
 	private int discount=10;
 	
-	public void setProperties(String hotelName, double price, int quantity, String starters, String mainCourse, String sideDish,boolean veg, String chat, boolean water, int orderNo, String orderedBy, String orderedOn, int discount) {
+	 void setProperties(String hotelName, double price, int quantity, String starters, String mainCourse, String sideDish,boolean veg, String chat, boolean water, int orderNo, String orderedBy, String orderedOn, int discount) {
 		this.hotelName = hotelName;
 		this.price = price;
 		this.quantity = quantity;
