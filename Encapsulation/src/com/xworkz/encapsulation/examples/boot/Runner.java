@@ -1,14 +1,19 @@
 package com.xworkz.encapsulation.examples.boot;
 
 import com.xworkz.encapsulation.examples.things.Apple;
+import com.xworkz.encapsulation.examples.things.Bingo;
 import com.xworkz.encapsulation.examples.things.Book;
 import com.xworkz.encapsulation.examples.things.Bread;
+import com.xworkz.encapsulation.examples.things.Cake;
 import com.xworkz.encapsulation.examples.things.Chips;
 import com.xworkz.encapsulation.examples.things.Chocolate;
 import com.xworkz.encapsulation.examples.things.Kurukure;
 import com.xworkz.encapsulation.examples.things.Lunch;
+import com.xworkz.encapsulation.examples.things.Milk;
 import com.xworkz.encapsulation.examples.things.Orange;
 import com.xworkz.encapsulation.examples.things.Owner;
+import com.xworkz.encapsulation.examples.things.Pringles;
+import com.xworkz.encapsulation.examples.things.Sweet;
 
 public class Runner {
 
@@ -22,6 +27,11 @@ public class Runner {
 		Orange orange=new Orange();
 		Bread bread=new Bread();
 		Book book =new Book();
+		Sweet sweet=new Sweet();
+		Cake cake=new Cake();
+		Milk milk = new Milk();
+		Pringles pringles= new Pringles();
+		Bingo bingo=new Bingo();
 		
 		owner.useLunchInfo();
 		System.out.println("Reading  private properties of lunch class(encapsulation)");
@@ -129,6 +139,71 @@ public class Runner {
 		System.out.println(book.getQuantity());
 		System.out.println(book.getByWith());
 		System.out.println(book.getFat());
+		
+		System.out.println("Reading  private properties of sweet class(encapsulation)");
+		System.out.println(sweet.getShopName());
+		System.out.println(sweet.getPrice());
+		System.out.println(sweet.getQuantity());
+		System.out.println(sweet.getBrand());
+		System.out.println(sweet.getOrderedBy());
+		System.out.println(sweet.getOrderedOn());
+		System.out.println(sweet.getOrderNo());
+		System.out.println(sweet.getPrice());
+		System.out.println(sweet.getQuantity());
+		System.out.println(sweet.getByWith());
+		System.out.println(sweet.getFat());
+		
+		System.out.println("Reading  private properties of Cake class(encapsulation)");
+		System.out.println(cake.getShopName());
+		System.out.println(cake.getPrice());
+		System.out.println(cake.getQuantity());
+		System.out.println(cake.getBrand());
+		System.out.println(cake.getOrderedBy());
+		System.out.println(cake.getOrderedOn());
+		System.out.println(cake.getOrderNo());
+		System.out.println(cake.getPrice());
+		System.out.println(cake.getQuantity());
+		System.out.println(cake.getByWith());
+		System.out.println(cake.getFat());
+		
+		System.out.println("Reading  private properties of Milk class(encapsulation)");
+		System.out.println(milk.getShopName());
+		System.out.println(milk.getPrice());
+		System.out.println(milk.getQuantity());
+		System.out.println(milk.getBrand());
+		System.out.println(milk.getOrderedBy());
+		System.out.println(milk.getOrderedOn());
+		System.out.println(milk.getOrderNo());
+		System.out.println(milk.getPrice());
+		System.out.println(milk.getQuantity());
+		System.out.println(milk.getByWith());
+		System.out.println(milk.getFat());
+		
+		System.out.println("Reading  private properties of pringles class(encapsulation)");
+		System.out.println(pringles.getShopName());
+		System.out.println(pringles.getPrice());
+		System.out.println(pringles.getQuantity());
+		System.out.println(pringles.getBrand());
+		System.out.println(pringles.getOrderedBy());
+		System.out.println(pringles.getOrderedOn());
+		System.out.println(pringles.getOrderNo());
+		System.out.println(pringles.getPrice());
+		System.out.println(pringles.getQuantity());
+		System.out.println(pringles.getByWith());
+		System.out.println(pringles.getFat());
+		
+		System.out.println("Reading  private properties of bingo class(encapsulation)");
+		System.out.println(bingo.getShopName());
+		System.out.println(bingo.getPrice());
+		System.out.println(bingo.getQuantity());
+		System.out.println(bingo.getBrand());
+		System.out.println(bingo.getOrderedBy());
+		System.out.println(bingo.getOrderedOn());
+		System.out.println(bingo.getOrderNo());
+		System.out.println(bingo.getPrice());
+		System.out.println(bingo.getQuantity());
+		System.out.println(bingo.getByWith());
+		System.out.println(bingo.getFat());
 	}
 
 }

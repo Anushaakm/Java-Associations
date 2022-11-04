@@ -11,6 +11,11 @@ public class Owner {
 	public Orange orange=new Orange();
 	public Bread bread=new Bread();
 	public Book book=new Book();
+	public Sweet sweet=new Sweet();
+	public Cake cake=new Cake();
+	public Milk milk=new Milk();
+	public Pringles pringles=new Pringles();
+	public Bingo bingo=new Bingo();
 	
 	public void useLunchInfo() {
 		this.lunch = lunch;
@@ -21,6 +26,11 @@ public class Owner {
 		this.orange=orange;
 		this.bread=bread;
 		this.book=book;
+		this.sweet=sweet;
+		this.cake=cake;
+		this.milk=milk;
+		this.pringles=pringles;
+		this.bingo=bingo;
 		
 		System.out.println(ownerName);
 		System.out.println(age);
@@ -272,7 +282,149 @@ System.out.println("book information befor");
 		System.out.println(book.getByWith());
 		System.out.println(book.getFat());
 
+		System.out.println("Sweet information befor");
+		System.out.println(sweet.getShopName());
+		System.out.println(sweet.getPrice());
+		System.out.println(sweet.getQuantity());
+		System.out.println(sweet.getBrand());
+		System.out.println(sweet.getOrderedBy());
+		System.out.println(sweet.getOrderedOn());
+		System.out.println(sweet.getOrderNo());
+		System.out.println(sweet.getPrice());
+		System.out.println(sweet.getQuantity());
+		System.out.println(sweet.getByWith());
+		System.out.println(sweet.getFat());
+		
+		sweet.setProperties("vikranth", 5000, 21, "ABC3", "milk", "Sweets", false, "chips", true, 30, "Nayana",
+				"Nov1", 5);
 
+		System.out.println("Sweet information after Modification");
+		System.out.println(sweet.getShopName());
+		System.out.println(sweet.getPrice());
+		System.out.println(sweet.getQuantity());
+		System.out.println(sweet.getBrand());
+		System.out.println(sweet.getOrderedBy());
+		System.out.println(sweet.getOrderedOn());
+		System.out.println(sweet.getOrderNo());
+		System.out.println(sweet.getPrice());
+		System.out.println(sweet.getQuantity());
+		System.out.println(sweet.getByWith());
+		System.out.println(sweet.getFat());
+		
+		System.out.println("Cake information befor");
+		System.out.println(cake.getShopName());
+		System.out.println(cake.getPrice());
+		System.out.println(cake.getQuantity());
+		System.out.println(cake.getBrand());
+		System.out.println(cake.getOrderedBy());
+		System.out.println(cake.getOrderedOn());
+		System.out.println(cake.getOrderNo());
+		System.out.println(cake.getPrice());
+		System.out.println(cake.getQuantity());
+		System.out.println(cake.getByWith());
+		System.out.println(cake.getFat());
+		
+		cake.setProperties("vikranth", 5000, 21, "ABC3", "milk", "Sweets", false, "chips", true, 30, "Nayana",
+				"Nov1", 5);
+
+		System.out.println("Cake information after Modification");
+		System.out.println(cake.getShopName());
+		System.out.println(cake.getPrice());
+		System.out.println(cake.getQuantity());
+		System.out.println(cake.getBrand());
+		System.out.println(cake.getOrderedBy());
+		System.out.println(cake.getOrderedOn());
+		System.out.println(cake.getOrderNo());
+		System.out.println(cake.getPrice());
+		System.out.println(cake.getQuantity());
+		System.out.println(cake.getByWith());
+		System.out.println(cake.getFat());
+		
+		System.out.println("Cake information befor");
+		System.out.println(milk.getShopName());
+		System.out.println(milk.getPrice());
+		System.out.println(milk.getQuantity());
+		System.out.println(milk.getBrand());
+		System.out.println(milk.getOrderedBy());
+		System.out.println(milk.getOrderedOn());
+		System.out.println(milk.getOrderNo());
+		System.out.println(milk.getPrice());
+		System.out.println(milk.getQuantity());
+		System.out.println(milk.getByWith());
+		System.out.println(milk.getFat());
+		
+		milk.setProperties("vikranth", 5000, 21, "ABC3", "milk", "Sweets", false, "chips", true, 30, "Nayana",
+				"Nov1", 5);
+
+		System.out.println("Cake information after Modification");
+		System.out.println(milk.getShopName());
+		System.out.println(milk.getPrice());
+		System.out.println(milk.getQuantity());
+		System.out.println(milk.getBrand());
+		System.out.println(milk.getOrderedBy());
+		System.out.println(milk.getOrderedOn());
+		System.out.println(milk.getOrderNo());
+		System.out.println(milk.getPrice());
+		System.out.println(milk.getQuantity());
+		System.out.println(milk.getByWith());
+		System.out.println(milk.getFat());
+		
+		System.out.println("pringles information befor");
+		System.out.println(pringles.getShopName());
+		System.out.println(pringles.getPrice());
+		System.out.println(pringles.getQuantity());
+		System.out.println(pringles.getBrand());
+		System.out.println(pringles.getOrderedBy());
+		System.out.println(pringles.getOrderedOn());
+		System.out.println(pringles.getOrderNo());
+		System.out.println(pringles.getPrice());
+		System.out.println(pringles.getQuantity());
+		System.out.println(pringles.getByWith());
+		System.out.println(pringles.getFat());
+		pringles.setProperties("vikranth", 5000, 21, "ABC3", "milk", "Sweets", false, "chips", true, 30, "Nayana",
+				"Nov1", 5);
+
+		System.out.println("pringles information after Modification");
+		System.out.println(pringles.getShopName());
+		System.out.println(pringles.getPrice());
+		System.out.println(pringles.getQuantity());
+		System.out.println(pringles.getBrand());
+		System.out.println(pringles.getOrderedBy());
+		System.out.println(pringles.getOrderedOn());
+		System.out.println(pringles.getOrderNo());
+		System.out.println(pringles.getPrice());
+		System.out.println(pringles.getQuantity());
+		System.out.println(pringles.getByWith());
+		System.out.println(pringles.getFat());
+		
+		System.out.println("pringles information befor");
+		System.out.println(bingo.getShopName());
+		System.out.println(bingo.getPrice());
+		System.out.println(bingo.getQuantity());
+		System.out.println(bingo.getBrand());
+		System.out.println(bingo.getOrderedBy());
+		System.out.println(bingo.getOrderedOn());
+		System.out.println(bingo.getOrderNo());
+		System.out.println(bingo.getPrice());
+		System.out.println(bingo.getQuantity());
+		System.out.println(bingo.getByWith());
+		System.out.println(bingo.getFat());
+		
+		pringles.setProperties("vikranth", 5000, 21, "ABC3", "milk", "Sweets", false, "chips", true, 30, "Nayana",
+				"Nov1", 5);
+
+		System.out.println("pringles information after Modification");
+		System.out.println(bingo.getShopName());
+		System.out.println(bingo.getPrice());
+		System.out.println(bingo.getQuantity());
+		System.out.println(bingo.getBrand());
+		System.out.println(bingo.getOrderedBy());
+		System.out.println(bingo.getOrderedOn());
+		System.out.println(bingo.getOrderNo());
+		System.out.println(bingo.getPrice());
+		System.out.println(bingo.getQuantity());
+		System.out.println(bingo.getByWith());
+		System.out.println(bingo.getFat());
 	}
 
 }
