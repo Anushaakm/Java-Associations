@@ -16,6 +16,6 @@ public class BengaluruRunner {
 		bengaluru.capitalMetod();
 		bengaluru.placeMethod();
 		bengaluru.objectMethod();
+		
 	}
-
 }
