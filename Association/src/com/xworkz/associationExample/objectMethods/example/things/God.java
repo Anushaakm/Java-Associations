@@ -28,7 +28,9 @@ public class God {
 		this.prasada = prasada;
 		this.poojeWeek = poojeWeek;
 	}
-
+//public God() {
+	
+//}
 	
 	@Override
 	public String toString() {
@@ -48,12 +50,114 @@ public class God {
 				System.out.println("same");
 				return true;
 
-			} else {
+			}
+		}else {
 				System.err.println("not same ");
 
 			}
 
-		}
+		
 		return false;
 		}
+
+
+	public String getName() {
+		return name;
+	}
+
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+
+	public String getFirstName() {
+		return firstName;
+	}
+
+
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+
+
+	public int getTemples() {
+		return temples;
+	}
+
+
+	public void setTemples(int temples) {
+		this.temples = temples;
+	}
+
+
+	public String getGodsWife() {
+		return godsWife;
+	}
+
+
+	public void setGodsWife(String godsWife) {
+		this.godsWife = godsWife;
+	}
+
+
+	public String getLocation() {
+		return location;
+	}
+
+
+	public void setLocation(String location) {
+		this.location = location;
+	}
+
+
+	public int getTotalTemples() {
+		return totalTemples;
+	}
+
+
+	public void setTotalTemples(int totalTemples) {
+		this.totalTemples = totalTemples;
+	}
+
+
+	public String getPriestName() {
+		return priestName;
+	}
+
+
+	public void setPriestName(String priestName) {
+		this.priestName = priestName;
+	}
+
+
+	public double getKanike() {
+		return kanike;
+	}
+
+
+	public void setKanike(double kanike) {
+		this.kanike = kanike;
+	}
+
+
+	public boolean isPrasada() {
+		return prasada;
+	}
+
+
+	public void setPrasada(boolean prasada) {
+		this.prasada = prasada;
+	}
+
+
+	public String getPoojeWeek() {
+		return poojeWeek;
+	}
+
+
+	public void setPoojeWeek(String poojeWeek) {
+		this.poojeWeek = poojeWeek;
+	}
+	
 }

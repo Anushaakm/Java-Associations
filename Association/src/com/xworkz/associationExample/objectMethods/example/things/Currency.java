@@ -2,7 +2,7 @@ package com.xworkz.associationExample.objectMethods.example.things;
 
 public class Currency {
 	private String name;
-	private double price;
+	private double rupees;
 	private String brand;
 	private String color;
 	private boolean working;
@@ -14,11 +14,11 @@ public class Currency {
 
 	
 
-	public Currency(String name, double price, String brand, String color, boolean working, String ownerName,
+	public Currency(String name, double rupees, String brand, String color, boolean working, String ownerName,
 			int length, String location, double toalPrice, boolean discount) {
 		super();
 		this.name = name;
-		this.price = price;
+		this.rupees = rupees;
 		this.brand = brand;
 		this.color = color;
 		this.working = working;
@@ -32,7 +32,7 @@ public class Currency {
 	
 	@Override
 	public String toString() {
-		return "Currency [name=" + name + ", price=" + price + ", brand=" + brand + ", color=" + color + ", working="
+		return "Currency [name=" + name + ", price=" + rupees + ", brand=" + brand + ", color=" + color + ", working="
 				+ working + ", ownerName=" + ownerName + ", length=" + length + ", location=" + location
 				+ ", toalPrice=" + toalPrice + ", discount=" + discount + "]";
 	}
@@ -48,12 +48,12 @@ public class Currency {
 				System.out.println("equal");
 				return true;
 			}
-
+		}
 			else {
 				System.out.println("not equal");
 
 			}
-		}
+		
 		return false;
 	}
 }

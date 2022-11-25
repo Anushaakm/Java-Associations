@@ -12,7 +12,7 @@ public class Institution {
 	private boolean rating;
 	private int totalBranches;
 
-	public Institution(String name, String type, long fees, int totalStaffs, String batch, String principalName,
+	public Institution(String name, String type, long fees, int totalStaffs, String batch, String ownerName,
 			String location, long totalRevenue, boolean rating, int totalBranches) {
 		super();
 		this.name = name;
@@ -20,7 +20,7 @@ public class Institution {
 		this.fees = fees;
 		this.totalStaffs = totalStaffs;
 		this.batch=batch;
-		this.ownerName = principalName;
+		this.ownerName = ownerName;
 		this.location = location;
 		this.totalRevenue = totalRevenue;
 		this.rating = rating;

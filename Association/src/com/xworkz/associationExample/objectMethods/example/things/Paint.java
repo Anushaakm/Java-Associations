@@ -34,8 +34,8 @@ public class Paint {
 			System.out.println("colour is same");
 			return true;
 		}
-		
-	}else {
+	}
+	else {
 		System.err.println("other is not paint, can not chech the properties");
 	}
 	
