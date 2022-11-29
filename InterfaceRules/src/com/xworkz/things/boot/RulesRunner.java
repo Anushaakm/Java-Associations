@@ -79,20 +79,51 @@ public class RulesRunner {
 		ref10.NoCheating();
 		ref10.NoBags();
 		ref10.Id();
-		
+
 		System.out.println("Created instance using class type");
 		SBIBank ref11 = new SBIBank();
 		ref11.Pan();
 		ref11.AbharCard();
 		ref11.MinCash();
 		ref11.MaxCash();
-		ref11.Photo();	;
+		ref11.Photo();
+		;
 		System.out.println("Created instance using interface type");
 		BankRules ref12 = new SBIBank();
 		ref12.Pan();
 		ref12.AbharCard();
 		ref12.MinCash();
 		ref12.MaxCash();
-		ref12.Photo();	;
+		ref12.Photo();
+
+		System.out.println("Created instance using class type");
+		MyLifeRules ref13 = new MyLifeRules();
+		ref13.BeYourself();
+		ref13.WakeUpSmiling();
+		ref13.ChooseFriendWisely();
+		ref13.BeHonest();
+		ref13.gossip();
+		System.out.println("Created instance using interface type");
+		LifeRules ref14 = new MyLifeRules();
+		ref14.BeYourself();
+		ref14.WakeUpSmiling();
+		ref14.ChooseFriendWisely();
+		ref14.BeHonest();
+		ref14.gossip();
+		
+		System.out.println("Created instance using class type");
+		IndArmy ref15 = new IndArmy();
+		ref15.generalDuty();
+		ref15.education();
+		ref15.height();
+		ref15.chest();
+		ref15.post();
+		System.out.println("Created instance using interface type");
+		ArmyRules ref16 = new IndArmy();
+		ref16.generalDuty();
+		ref16.education();
+		ref16.height();
+		ref16.chest();
+		ref16.post();
 	}
 }
