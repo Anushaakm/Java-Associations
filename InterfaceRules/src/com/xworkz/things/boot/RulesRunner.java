@@ -103,6 +103,7 @@ public class RulesRunner {
 		ref13.ChooseFriendWisely();
 		ref13.BeHonest();
 		ref13.gossip();
+		ref13.method();
 		System.out.println("Created instance using interface type");
 		LifeRules ref14 = new MyLifeRules();
 		ref14.BeYourself();

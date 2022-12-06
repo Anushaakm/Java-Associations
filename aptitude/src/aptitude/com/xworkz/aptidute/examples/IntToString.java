@@ -1,4 +1,4 @@
-package aptitude.com.xworkz.aptidute.examples;
+-package aptitude.com.xworkz.aptidute.examples;
 
 public class IntToString {
 	   public static void main(String args[])

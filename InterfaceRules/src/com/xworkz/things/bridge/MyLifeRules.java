@@ -2,8 +2,12 @@ package com.xworkz.things.bridge;
 
 import com.xworkz.things.rules.LifeRules;
 
-public class MyLifeRules implements LifeRules{
-
+public abstract class MyLifeRules implements LifeRules{
+	
+	public String method() {
+		return "anu";
+	}
+	
 	@Override
 	public String BeYourself() {
 		// TODO Auto-generated method stub

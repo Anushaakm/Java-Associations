@@ -13,7 +13,9 @@ public class ReverseString {
 	      {
 	        ch= str.charAt(i); //extracts each character
 	        nstr= ch+nstr; //adds each character in front of the existing string
+	        System.out.println("Reversed word: "+ ch);
 	      }
+	      
 	      System.out.println("Reversed word: "+ nstr);
 	    }
 	}
