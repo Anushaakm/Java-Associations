@@ -63,7 +63,7 @@ public class PizzaServiceImpl implements PizzaService {
 			validType = true;
 		} else {
 			System.err.println("Invalid name" + name);
-		}
+		}                     
 
 		return true;
 	}
