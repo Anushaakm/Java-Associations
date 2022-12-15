@@ -3,7 +3,7 @@ package aptitude.com.xworkz.aptidute.examples;
 public class ReverseString {
 	    public static void main (String[] args) {
 	        
-	        String str= "Rajaji", nstr="";
+	        String str= "Rajaji anusha", nstr="";
 	        char ch;
 	        
 	      System.out.print("Original word: ");

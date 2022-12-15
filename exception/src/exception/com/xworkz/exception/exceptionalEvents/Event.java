@@ -81,6 +81,7 @@ public class Event {
 	public void method2() {
 		System.out.println("method2");
 		throw new WrongMethodTypeException();
+		method1();
 	}
 	public void method3() {
 		System.out.println("method3");
@@ -291,6 +292,8 @@ public class Event {
 	public void method54() {
 		System.out.println("method1");
 		throw new UnsatisfiedLinkError();
+		
+		method53();
 	}
 	public void method55() {
 		System.out.println("method1");
@@ -365,11 +368,13 @@ public class Event {
 	public void method70() throws BadLocationException {
 		System.out.println("running method70");
 		throw new BadLocationException(null, 0);
+		
 	}
 
 	public void method71() throws DestroyFailedException {
 		System.out.println("running method71");
 		throw new DestroyFailedException();
+		
 	}
 
 	public void method72() throws GeneralSecurityException {
@@ -457,11 +462,14 @@ public class Event {
 	public void method88() throws NotActiveException {
 		System.out.println("running method88");
 		throw new NotActiveException();
+	
 	}
 
-	public void method89() throws NotBoundException {
+	public void method89() throws NotBoundException, LineUnavailableException {
 		System.out.println("running method89");
+		method90();
 		throw new NotBoundException();
+		
 	}
 
 	public void method90() throws LineUnavailableException {
@@ -487,11 +495,13 @@ public class Event {
 	public void method94() throws TransformerConfigurationException {
 		System.out.println("running method 94");
 		throw new TransformerConfigurationException();
+		
 	}
 
 	public void method95() throws TooManyListenersException {
 		System.out.println("running method 95");
 		throw new TooManyListenersException();
+		
 	}
 	public void method96() {
 		System.out.println("method 96");
@@ -503,12 +513,30 @@ public class Event {
 	}
 	public void method98() {
 		System.out.println("method 98");
+		try {
+		method97();
+		}catch(UnsatisfiedLinkError e){
+			System.out.println("exception handled");
+			
+		}
 		throw new StackOverflowError();
 	}
-	public void method99() {
+	
+	public void method99() throws SQLSyntaxErrorException {
 		System.out.println("method 59");
+		try {
+		method100();
+		method95();
+		method96();
+		}catch(SQLSyntaxErrorException |VerifyError |TooManyListenersException ed) {
+			
+		System.out.println("3 exception handled");
+		}
 		throw new NoSuchFieldError("ANU");
+		
 	}
+	
+	
 	public void method100() throws SQLSyntaxErrorException {
 		System.out.println("method 100");
 		throw new SQLSyntaxErrorException();

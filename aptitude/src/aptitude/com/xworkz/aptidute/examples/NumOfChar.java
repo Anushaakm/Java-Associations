@@ -8,7 +8,7 @@ public class NumOfChar {
 	            
 	        //Counts each character except space    
 	        for(int i = 0; i < string.length(); i++) {    
-	            if(string.charAt(i) == ' ')    
+	            //if(string.charAt(i) !=' ')    
 	                count++;    
 	        }    
 	            
