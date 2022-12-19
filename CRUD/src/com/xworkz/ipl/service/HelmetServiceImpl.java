@@ -12,7 +12,7 @@ public class HelmetServiceImpl implements HelmetService {
 
 	public HelmetServiceImpl(HelmetRepository helmetRepository) {
 		this.helmetRepository = helmetRepository;
-		// TODO Auto-generated constructor stub
+		
 	}
 
 	@Override
