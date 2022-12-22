@@ -36,7 +36,7 @@ public class Company {
 		for(String element:company) {
 			System.out.println(element);
 		}
-		System.out.println("========================WHILE LOOP TO ACCESS THE ELEMENT===========================");
+		System.out.println("=======================WHILE LOOP TO ACCESS THE ELEMENT==========================");
 
 		Iterator<String> itr = company.iterator();
 		while (itr.hasNext()) {
