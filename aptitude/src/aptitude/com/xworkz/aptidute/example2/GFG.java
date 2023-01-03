@@ -1,6 +1,6 @@
 package aptitude.com.xworkz.aptidute.example2;
 import java.util.*;
-public class Array {
+public class GFG {
 	static void minMax(int[] arr) {
 		long minValue=0;
 		long maxValue=0;
@@ -12,7 +12,7 @@ public class Array {
 			maxValue +=arr[j];
 		
 		}
-		System.out.println("MinValue is: "+minValue+"MaxValue is: "+maxValue);
+		System.out.println("MinValue is: "+minValue+" MaxValue is: "+maxValue);
 	}
 	public static void main(String[] args) {
 		int[] arr= {12,10,5,4,2,8,9,1,6,15};
