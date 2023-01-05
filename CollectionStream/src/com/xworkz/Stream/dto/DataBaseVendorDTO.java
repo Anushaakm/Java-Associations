@@ -26,6 +26,17 @@ public String toString() {
 	return "DataBaseVendorDTO [name=" + name + ", developedBy=" + developedBy + ", type=" + type + ", size=" + size
 			+ ", licenseCost=" + licenseCost + "]";
 }
+
+@Override
+	public boolean equals(Object obj) {
+		if(obj!=null) {
+			if(obj instanceof DataBaseVendorDTO) {
+				DataBaseVendorDTO dto=(DataBaseVendorDTO)obj;
+				
+			}
+		}
+		return super.equals(obj);
+	}
 public String getName() {
 	return name;
 }
