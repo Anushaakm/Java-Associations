@@ -2,10 +2,9 @@ package com.xworkz.abstraction.rules;
 
 public interface LibraryRules {
 	
+	 boolean book();
 
-		boolean book();
-
-		boolean sleep();
+	 boolean sleep();
 
 	}
 
