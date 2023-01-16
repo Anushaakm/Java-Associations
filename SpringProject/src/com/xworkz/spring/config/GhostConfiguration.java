@@ -23,12 +23,12 @@ public class GhostConfiguration {
 
 	@Bean
 	public String ghostName() {
-		return "Naagavalli";
+		return "ABC";
 	}
 
 	@Bean
 	public String ghostLastName() {
-		return "SM";
+		return "ALIAS DEF";
 	}
 
 	@Bean
