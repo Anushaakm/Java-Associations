@@ -13,7 +13,7 @@ import com.xworkz.di.bridge.Fuel;
 
 @Configuration
 @ComponentScan(basePackages = "com.xworkz.di", excludeFilters = {
-		@ComponentScan.Filter(type = FilterType.ASSIGNABLE_TYPE, value = {Diesel.class,Petrol.class,Shell.class ,Runner.class,Petrol.class,Fuel.class}) })
+		@ComponentScan.Filter(type = FilterType.ASSIGNABLE_TYPE, value = {PetrolBunkConfiguration.class,Petrol.class,Shell.class ,Runner.class,Petrol.class,Fuel.class}) })
 public class BrowserConfiguration {
 	
 
