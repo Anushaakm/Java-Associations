@@ -4,15 +4,15 @@ import java.util.Scanner;
 
 public class Test {
 public static void main(String[] args) {
-	int n=0;
 	
-	Scanner scanner= new Scanner(System.in);
-	String ip="192.160.10.1";
-	
-	String str1=ip.substring(1,3);
-	String str2=ip.
-	
-	if(n)
-	
+	int a=1;int b=2;
+	int c=5;
+	int d=1;
+	for(int i=1;i<c;i++) {
+		d=d*b;
+		
+	}
+	a=a*d;
+	System.out.println(a);
 }
 }
