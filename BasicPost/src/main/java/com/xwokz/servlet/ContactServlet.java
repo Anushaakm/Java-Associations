@@ -60,8 +60,6 @@ public class ContactServlet extends HttpServlet{
 	    	writer.print("<span style = 'color : red';>");
 		    writer.print("invalid comments "+mobileNo );
 	    }
-	    
-	    
 	   if (comments.length() > 3) {
 	    	writer.print("<span style = 'color : green';>");
 	    	writer.print("sign up successfull"+comments);
