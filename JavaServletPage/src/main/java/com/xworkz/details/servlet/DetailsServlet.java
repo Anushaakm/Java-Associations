@@ -22,7 +22,7 @@ public class DetailsServlet extends HttpServlet {
 		String gender=req.getParameter("gender");
 		String reason=req.getParameter("reason");
 		String address=req.getParameter("address");
-		
+			
 		System.out.println(fname);
 		System.out.println(lname);
 		System.out.println(gender);
