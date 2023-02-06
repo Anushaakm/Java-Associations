@@ -1,25 +1,21 @@
--package aptitude.com.xworkz.aptidute.examples;
+package aptitude.com.xworkz.aptidute.examples;
 
-public class IntToString {
-	   public static void main(String args[])
+import java.util.Iterator;
+import java.util.LinkedList;
 
-	    {
 
-	        // Custom integer input
+class A
+{
+private class B
+{}
+}
 
-	        int c = -1234;
-	 
+public class Main extends A
+{
+public static void main(String[] aa)
+{
+B b = new B();
 
-	        // Converting above integer to string
+}
 
-	        // using valueOf() Method
-
-	        String str3 = String.valueOf(c);
-	 
-
-	        // Printing the integer stored in above string
-
-	        System.out.println("String str3 = " + str3);
-
-	    }
 }
