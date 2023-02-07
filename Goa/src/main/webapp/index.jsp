@@ -22,7 +22,7 @@
 			<div class="container-fluid">
 				<img
 					src="https://x-workz.in/static/media/Logo.cf195593dc1b3f921369.png"
-					class="img-fluid"  hight="80px" width="80px">
+					class="img-fluid"  hight="90px" width="90px">
 
 				<form class="d-flex">
 					<a class="btn btn-outline-primary"
