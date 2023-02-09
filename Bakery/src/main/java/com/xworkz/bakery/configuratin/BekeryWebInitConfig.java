@@ -1,11 +1,14 @@
-package com.xworkz.goa.configuration;
+package com.xworkz.bakery.configuratin;
 
 import java.util.Arrays;
 
+import org.springframework.web.servlet.config.annotation.DefaultServletHandlerConfigurer;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
-public class GoaWebInit extends AbstractAnnotationConfigDispatcherServletInitializer implements WebMvcConfigurer {
+public class BekeryWebInitConfig 
+extends AbstractAnnotationConfigDispatcherServletInitializer
+implements WebMvcConfigurer{
 
 	@Override
 	protected Class<?>[] getRootConfigClasses() {
@@ -16,7 +19,7 @@ public class GoaWebInit extends AbstractAnnotationConfigDispatcherServletInitial
 	@Override
 	protected Class<?>[] getServletConfigClasses() {
 		System.out.println("Running getServletConfigClasses");
-		Class[] class1 = { GoaConfiguration.class };
+		Class[] class1 = { SpringConfiguration.class };
 		System.out.println("Creating " + Arrays.toString(class1));
 		return class1;
 	}
@@ -28,7 +31,10 @@ public class GoaWebInit extends AbstractAnnotationConfigDispatcherServletInitial
 		System.out.println("Creating  : " + Arrays.toString(ref));
 		return ref;
 	}
-	
-	
+	@Override
+	public void configureDefaultServletHandling(DefaultServletHandlerConfigurer configurer) {
+		System.out.println("Running configureDefaultServletHandling");
+		configurer.enable();
+	}
 
 }

@@ -1,10 +1,10 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+	pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>X-workz</title>
+<title>x-workz</title>
 <link
 	href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
 	rel="stylesheet"
@@ -22,28 +22,21 @@
 			<div class="container-fluid">
 				<img
 					src="https://x-workz.in/static/media/Logo.cf195593dc1b3f921369.png"
-					class="img-fluid" hight="80px" width="80px">
-
-				<form class="d-flex">
-					<input class="form-control me-3" type="search" placeholder="Search"
-						aria-label="Search"> <a class="btn btn-outline-primary"
-						href="index.jsp"/>Home</a> <a class="btn btn-outline-primary"
-						href="Casino.jsp"/>Casino</a>
-
-				</form>
-			</div>
+					class="img-fluid" hight="90px" width="90px">
 		</nav>
 	</div>
 
-
-	<h1>Casino Data Submit Sucessfully</h1>
-<div>
-	<h2>Beach Game  is :${name} </h2>
-	<h2>Beach Name  is :${cruise} </h2>
-	<h2>Beach Location  is :${food}</h2>
-	<h2>Beach Clean  is :${alcohal} </h2>
-	<h2>Beach Clean  is :${fee} </h2>
-	
-</div>
+	<form action="bakery" method="post">
+		<pre>
+Name <input type="text" name="name" /> 
+Owner<input type="text" name="owner" /> 
+Wife Name<input type="text" name="wife" />
+Married<input type="radio" name="married" value="Yes" />Married<br>
+		<input type="radio" name="married" value="No" />Not-Married<br>
+Famous For<input type="textarea" name="famousFor" />
+Since<input type="text" name="since" />
+		<input type="submit" value="save" />
+</pre>
+	</form>
 </body>
 </html>
