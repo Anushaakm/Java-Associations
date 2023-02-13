@@ -9,7 +9,7 @@ import lombok.Data;
 
 @Data
 @Entity
-@Table(name = "eggTable")
+@Table(name = "egg_table")
 public class EggDto {
 	@Id
 	@Column(name = "e_id")
