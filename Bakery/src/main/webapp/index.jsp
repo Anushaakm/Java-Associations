@@ -30,9 +30,10 @@
 		<pre>
 Name <input type="text" name="name" /> 
 Owner<input type="text" name="owner" /> 
-Wife Name<input type="text" name="wife" />
-Married<input type="radio" name="married" value="Yes" />Married<br>
-		<input type="radio" name="married" value="No" />Not-Married<br>
+ <!--Wife Name<input type="text" name="wife" /> -->
+Married
+<input type="radio" name="married" value="Yes" />Married<br>
+<input type="radio" name="married" value="No" />Not-Married<br>
 Famous For<input type="textarea" name="famousFor" />
 Since<input type="text" name="since" />
 		<input type="submit" value="save" />

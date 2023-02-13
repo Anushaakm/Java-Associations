@@ -34,13 +34,14 @@
 		<br>
 		<lable>Bakery owner:${owner}</lable>
 		<br>
-		<lable>Owner wife name:${wife}</lable>
-		<br>
-		<lable>Marreid:${married}</lable>
+			<lable>Marreid:${married}</lable>
 		<br>
 		<lable>Famous For:${famousFor}</lable>
 		<br>
 		<lable>Since:${since}</lable>
+			<!-- <lable>Owner wife name:${wife}</lable> -->
+		<br>
+		
 		
 
 	</form>
